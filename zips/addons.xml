@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.tksappsbasicwizard" name="[COLOR red][B]TK's Applications for Kodi:[/B][/COLOR] [COLOR snow][B]Basic Wizard[/B][/COLOR]" version="1.0.0" provider-name="TK's">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Welcome to TK's Applications for Kodi: Basic Wizard</summary>
+    <description lang="en">This Software is designed to keep your KODI device up to date and running smoothly</description>
+    <disclaimer lang="en">For help and support ... Please visit our group on Facebook!</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website>https://www.facebook.com/groups/348956815437210/</website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon></icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.gehosting"
+       name="[COLOR dodgerblue]Global Entertainment[/COLOR]"
+       version="1.7"
+       provider-name="GE Hosting">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Global Entertainment</summary>
+    <language>en</language>
+    <description lang="en">Global Entertainment Official Addon - Supplier of Great Quality and Stable Streams</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.skywalkers" name="Sky Walkers TV" version="0.0.1" provider-name="Walker">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Live Tv</summary>
+		<description lang="en">Live TV Premium TV</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>adult,comedy,documentary,kids,livetv,movies,music,news,sports,subscription,tvshows,uk,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.xtream-codes" name="Xtream-Codes IPTV" version="2.0" provider-name="MikkM">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Xtream-Codes IPTV</summary>
+    <website>http://www.xtream-codes.com/</website>
+    <description lang="en">IPTV Addon for Xteam-Codes iptv panel</description>
+    <forum>http://www.xtream-codes.com/forum</forum>
+    <email>mikkm@mikkm.ul.ee</email>
+    <disclaimer lang="en">You may use and share this addon however you like, you may NOT edit this addon in any way without conesnt of developer. Skype:MikkM</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.jesusboxtv" name="Jesusbox Repository" version="1.0.3" provider-name="Playonmonkey">
+	<extension point="xbmc.addon.repository" name="Jesusbox Repository">
+		<info compressed="false">https://raw.githubusercontent.com/jesusboxrepo/repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jesusboxrepo/repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jesusboxrepo/repository/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Welcome to the Jesusbox Repository where you will find all Jesusbox produced Addon-ons and wizards</summary>
+		<description>The Best Media Center Box Available</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
